@@ -24,7 +24,7 @@ void print_number(int n)
 
 		while (d <= positive)
 		{
-			t_beg *= 10;
+			d *= 10;
 		}
 		tens = d / 10;
 
