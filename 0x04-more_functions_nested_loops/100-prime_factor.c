@@ -22,7 +22,7 @@ int main(void)
 		{
 			divisor++;
 		}
-		printf("%lu\n", num);
-		return (0);
 	}
+	printf("%lu\n", num);
+	return (0);
 }
