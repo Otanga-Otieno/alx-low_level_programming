@@ -2,6 +2,7 @@
 
 /**
  * _strlen - Return length of a string
+ * Return: integer, length of string
  * @s: a string
  */
 
