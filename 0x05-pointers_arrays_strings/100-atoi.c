@@ -70,7 +70,7 @@ int _atoi(char *s)
 	int start = (beginning(s));
 	int sign;
 	int digits = 0;
-    int digit = (beginning(s));
+	int digit = (beginning(s));
 	unsigned int num = 0;
 	int x = 1;
 	int i;
