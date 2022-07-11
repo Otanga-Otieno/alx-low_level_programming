@@ -72,8 +72,8 @@ int _atoi(char *s)
 	int digits = 0;
     int digit = (beginning(s));
 	unsigned int num = 0;
-    int x = 1;
-    int i;
+	int x = 1;
+	int i;
 
 	if (start < 0)
 		return (0);
