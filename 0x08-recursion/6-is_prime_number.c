@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * prime - check primeness of a number 
- * return - 1 if prime otherwise 0
+ * prime - check primeness of a number
+ * Return: 1 if prime otherwise 0
+ * @num: integer to check
+ * @divisor: divisor to check against
  */
 
 int prime(int num, int divisor)
@@ -13,7 +15,7 @@ int prime(int num, int divisor)
 	}
 	if ((num % divisor) != 0)
 	{
-		return prime(num, divisor + 1);
+		return (prime(num, divisor + 1));
 	}
 	return (0);
 }
@@ -30,6 +32,6 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return prime(n, 2);
+	return (prime(n, 2));
 
 }
