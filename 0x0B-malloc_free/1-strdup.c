@@ -2,7 +2,7 @@
 #include "stdlib.h"
 
 /**
- * *_strdup - duplicate string 
+ * *_strdup - duplicate string
  * Return: pointer to duplicated string
  * @str: string to duplicate
  */
@@ -22,8 +22,12 @@ char *_strdup(char *str)
 		size++;
 	}
 
-	ptr = malloc(size);
+	ptr = malloc(size + 1);
 
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
 	while (count <= size)
 	{
 		ptr[count] = str[count];
