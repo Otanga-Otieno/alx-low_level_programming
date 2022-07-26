@@ -33,7 +33,7 @@ char *argstostr(int ac, char **av)
 {
 	char *ptr;
 	int length = 0;
-	int i, j, k;
+	int i, j, k = 0;
 
 	if (ac == 0 || av == NULL)
 	{
