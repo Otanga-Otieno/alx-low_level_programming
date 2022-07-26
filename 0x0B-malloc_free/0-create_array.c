@@ -19,6 +19,10 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
+	if (ptr == NULL)
+	{
+		return (NULL);
+	}
 
 	while (count < slots)
 	{
