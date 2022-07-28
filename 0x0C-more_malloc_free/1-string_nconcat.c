@@ -40,9 +40,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (m > size2)
 	{
-		n = size2;
+		m = size2;
 	}
-	ptr = malloc(size1 + n);
+	ptr = malloc(size1 + m);
 
 	if (ptr == NULL)
 	{
